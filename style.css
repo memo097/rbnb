@@ -1,0 +1,76 @@
+body {
+    margin: 0%;
+}
+header {
+    background-image: url(img/entete.jpg);
+    padding: 50px 10px 60px 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.blocheader {
+    display: flex;
+}
+.blocheader p {
+    color: white;
+    font-size: 15px;
+}
+
+.sousbloc1 {
+    margin-right: 30px;
+}
+.sousbloc1 button {
+    padding: 10px 100px 10px 100px;
+    color: rgb(31, 31, 31);
+    font-size: 15px;
+    font-family: sans-serif;
+    border: solid 2px white;
+    border-radius: 5px;
+    background-color: white;
+}
+.sousbloc2 button {
+    padding: 10px 100px 10px 100px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    border: solid 2px white;
+    border-radius: 5px;
+}
+.reservation {
+    display: flex;
+    align-items: flex-end;
+}
+
+/* margin ecarter les input et selection */
+.arriveeselect {
+    margin: 0px 10px 0px 10px;
+}
+main {
+    padding: 100px 10px 50px 120px;
+    color: #484848;
+}
+.voyageurselect {
+    margin: 0px 10px 0px 10px;
+}
+.buttonrecherche button {
+    background-color: #ed565e;
+    padding: 10px 20px 10px 20px;
+    border-radius: 6px;
+    border: solid 1px #ed565e;
+}
+h3 {
+    font-size: 28px;
+    font-family: sans-serif;
+}
+.inputsize {
+    padding: 10px 8px 10px 8px;
+}
+.voyageurselect select {
+    padding: 10px 20px 10px 20px;
+    border: solid 1px #a9a9a9;
+    background-color: transparent;
+}
