@@ -49,7 +49,7 @@ h1 {
 .arriveeselect {
     margin: 0px 10px 0px 10px;
 }
-main {
+section {
     padding: 100px 10px 50px 120px;
     color: #484848;
 }
@@ -73,4 +73,32 @@ h3 {
     padding: 10px 20px 10px 20px;
     border: solid 1px #a9a9a9;
     background-color: transparent;
+}
+/* bloc3 */
+.avis {
+    display: flex;
+}
+
+.appart {
+    width: 333px;
+    height: 222px;
+    padding: 0px 15px 8px 0px;
+}
+
+.aviscomment {
+    margin: 0%
+}
+.profilflex img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.profilflex p {
+    color: blue;
+}
+
+/* Bloc4 */
+ul {
+    list-style: none;
+    display: flex;   
 }
