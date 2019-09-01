@@ -226,4 +226,17 @@ a:visited {
     .blocheader{
         flex-direction: column;
     }
+    .reservation{
+        flex-direction: column;
+        display: block;
+    }
+    .arriveeselect, .voyageurselect{
+        margin: 0;
+    }
+    .buttonrecherche{
+        margin-top: 10px;
+    }
+    .aviscomment, .reservinstant {
+        overflow-y: auto;
+    }
 }
